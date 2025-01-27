@@ -229,6 +229,7 @@ GameObject:
   - component: {fileID: 817124459}
   - component: {fileID: 817124458}
   - component: {fileID: 817124457}
+  - component: {fileID: 817124461}
   m_Layer: 0
   m_Name: HealPad
   m_TagString: Untagged
@@ -244,10 +245,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 817124456}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 2.2, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &817124458
 MeshRenderer:
@@ -314,6 +315,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &817124461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 817124456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef4d4342dbbf5594791fffe6c4c5c132, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _healthChange: 2
+  _applyToTarget: 0
+  _destroyOnCollision: 0
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -547,10 +563,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2221839908916662964, guid: d2ca6cbbe49760b4e91af50091055ee7, type: 3}
-      propertyPath: _healthChange
-      value: -5
-      objectReference: {fileID: 0}
     - target: {fileID: 2734564127983776896, guid: d2ca6cbbe49760b4e91af50091055ee7, type: 3}
       propertyPath: m_RootOrder
       value: 5
