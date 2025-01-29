@@ -148,6 +148,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _healthMax: 10
   _healthCur: 10
-  _invincibilityFramesMax: 3
+  _invincibilityFramesMax: 2
   _invincibilityFramesCur: 0
   _isDead: 0
