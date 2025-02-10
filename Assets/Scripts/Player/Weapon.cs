@@ -21,7 +21,7 @@ public class Weapon : MonoBehaviour
     private GameObject _bulletToSpawn;
 
     [SerializeField, Tooltip("Animation to play when attacking.")]
-    public string _attackAnim = "SwordAttack01";
+    public string _attackAnim = "SwordAttack";
 
     // Update is called once per frame
     void Update()
